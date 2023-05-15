@@ -1,0 +1,22 @@
+{
+  "name": "FurnihomeGraphQLServer",
+  "version": "1.0.0",
+  "description": "Graphql server for Furnihome",
+  "main": "index.js",
+  "author": "Sukant Rajkarnikar",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon --quiet index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
